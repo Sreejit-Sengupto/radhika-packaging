@@ -16,5 +16,5 @@
 4. Run `npm run dev`. The app is running on your local network.
 
 ### Contributing guidlines
-
-Nothing just run `npx prettier . --write` before commiting to avoid any merge conflicts.
+- Create new branch every new feature, bug fix, etc.
+- Run `npx prettier . --write` before commiting to avoid any merge conflicts.
