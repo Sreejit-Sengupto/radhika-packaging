@@ -9,12 +9,13 @@ import About from './components/About/About';
 import Products from './components/Products/Products';
 import Services from './components/Services/Services';
 import Blogs from './components/Blogs/Blogs';
+import Navbar from './utils/Navbar';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <>
+        <Route path='/' element={<Navbar />}>
             <Route
-                path="/"
+                index
                 element={<Home />}
             />
             <Route
@@ -33,7 +34,7 @@ const router = createBrowserRouter(
                 path="blogs"
                 element={<Blogs />}
             />
-        </>
+        </Route>
     )
 );
 function App() {

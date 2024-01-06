@@ -2,7 +2,14 @@
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                lato: ['Lato', 'sans-serif'],
+            },
+            backgroundImage: {
+                'home-banner': "url('/img/homepage-banner.svg')"
+            }
+        },
     },
     plugins: [],
 };
