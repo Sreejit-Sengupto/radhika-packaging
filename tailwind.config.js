@@ -7,8 +7,8 @@ export default {
                 lato: ['Lato', 'sans-serif'],
             },
             backgroundImage: {
-                'home-banner': "url('/img/homepage-banner.svg')"
-            }
+                'home-banner': "url('/img/homepage-banner.svg')",
+            },
         },
     },
     plugins: [],

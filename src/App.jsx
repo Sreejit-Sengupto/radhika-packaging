@@ -13,7 +13,10 @@ import Navbar from './utils/Navbar';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path='/' element={<Navbar />}>
+        <Route
+            path="/"
+            element={<Navbar />}
+        >
             <Route
                 index
                 element={<Home />}
