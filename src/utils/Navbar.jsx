@@ -1,9 +1,11 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import Burger from './Burger';
 
 function Navbar() {
     return (
         <>
-            <div className="w-full mx-auto font-lato flex justify-center items-center px-3 py-5">
+            <Burger />
+            <div className="hidden w-full mx-auto font-lato lg:flex justify-center items-center px-3 py-5">
                 <div className="w-[40%] flex justify-evenly items-center">
                     <NavLink to={'/products'}>Products</NavLink>
                     <NavLink to={'/services'}>Services</NavLink>

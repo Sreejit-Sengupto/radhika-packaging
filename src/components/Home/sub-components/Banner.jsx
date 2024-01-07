@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 function Banner() {
     return (
-        <div className="bg-home-banner bg-cover bg-no-repeat bg-center w-full h-[100dvh] lg:h-screen flex flex-col lg:flex-row justify-center items-center font-lato">
+        <div className="bg-home-banner bg-cover bg-no-repeat bg-center w-full h-[100dvh] flex flex-col lg:flex-row justify-center items-center font-lato">
             <div className="flex flex-col justify-center items-center">
                 <div className="flex flex-col justify-center items-center">
                     <p className="w-[90%] lg:w-[50%] text-5xl font-bold">
